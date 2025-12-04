@@ -1,0 +1,34 @@
+
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+group :default do
+  gem "lizarb", "~> 1.0.8"
+  # gem "lizarb", github: "lizarb/lizarb"
+  # gem "lizarb", path: "../lizarb"
+
+  gem "zeitwerk", "~> 2.6", "<= 2.7"
+end
+
+group :dev do
+  # DevSystem gems
+
+  # Bench gems
+
+  # Command gems
+  gem "pry", ">= 0.14.2"
+  gem "tty-prompt", ">= 0.23.1"
+
+  # Generator gems
+  gem "diff-lcs", "~> 1.6"
+
+  # Log gems
+
+  # Shell gems
+  # gem "htmlbeautifier", "~> 1.4"
+  # gem "commonmarker", "~> 0.23.9"
+  # gem "haml", "~> 6.1"
+  # gem "sassc", "~> 2.4"
+  # gem "coffee-script", "~> 2.4"
+end
