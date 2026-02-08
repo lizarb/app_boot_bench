@@ -1,137 +1,28 @@
-# Liza
+# Liza App Boot Bench
 
-Liza is a light, experimental framework primarily developed to help study the Ruby language and the Ruby ecosystem.
-
-It is a < 3000 LOC Core, which provides an abstract architecture for organizing Ruby code using systems.
-
-It defines 3 top level constants [Lizarb, App, Liza] and works with any gem or app that doesn't need these constants.
-
-## Author note
-
-I am happy with the project and I am starting to focus on documentation.
-
-I will be updating the website https://lizarb.org/ to include more vivid examples and tutorials.
+Please, install and run this a full benchmark of this app with the start command.
 
 ## Installing
 
-Install the gem by executing:
+Normally you would install the gem by executing:
 
     gem install lizarb
 
-You will get the following shims:
+Maybe you want to install the latest version from GitHub:
 
-    lizarb --version
-    liza --version
-    liza -v
-
-## REPL
-
-Try Liza with IRB or Pry:
-
-    liza irb
-    liza pry
-
-## Create a liza app
-
-So you can run your experiments:
-
-    liza new
-    liza new project_1
-
-Then enter your generated liza app:
-
-    cd project_1
-    liza help
-
-Now you're ready to go and try some stuff!
-
----
-
-## Running Tests
-
-OK, one more thing!
-
-> All controllers you generate come paired with a test file.
-
-You can run the tests with:
-
-    liza test
-    liza test +ask
-    liza test -run
-
-## DevSystem
-
-Generate a command
-
-    liza generate
-    liza generate command
-    liza generate command my
-    liza my
-    liza my 1 2 3
-
-Generate a system
-
-    liza generate
-    liza generate system my_deploy
-    liza generate system my_agents
-
-Generate a command in a system
-
-    liza generate
-    liza generate command
-    liza generate command other
-    liza generate command other place=my_deploy
-    liza other
-
-Gemify a system
-
-    # TODO
-
-Investigate the framework
-
-    liza xxxxx
-    liza generate xxxxx
-    liza shell
-    liza shell:loc
-    liza shell:paths
-    liza shell:eval "puts 'Hello, World'"
-    liza shell:eval "log 'Hello, World'" 
-
----
-
-## Check out our beta features
-
-To clone this repository, run this bash script:
-
-    gh repo clone lizarb/lizarb
-
-To install dependencies, run this:
-
-    bundle
-
-For development experiments, use the local executable script
-
-    exe/lizarb test
-
-To build and install lizarb in your local machine
-
+    git clone https://github.com/lizarb/lizarb
+    cd lizarb
+    bundle install
     bundle exec rake install
 
-<!--
-For systems in development, see [README_SYSTEMS.md](https://github.com/lizarb/lizarb/blob/master/README_SYSTEMS.md).
+## Benchmarking
 
-## Release
+This application is designed to benchmark the boot time of a liza app. You can run the benchmarks with:
 
-To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
--->
-## Contributing
+    liza start
+    liza s
+    liza s:full
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/lizarb/lizarb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/lizarb/lizarb/blob/master/CODE_OF_CONDUCT.md).
+## Thank you!
 
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Lizarb project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/lizarb/lizarb/blob/master/CODE_OF_CONDUCT.md).
+Thank you for participating in this benchmark!
