@@ -3,12 +3,14 @@ class DevBox < DevSystem::DevBox
   configure :command do
     # Command.panel gives you read-access to this instance
 
+    shortcut :s, :start
+
     shortcut :b, :bench
     shortcut :g, :generate
     shortcut :i, :irb
     shortcut :l, :log
     shortcut :p, :pry
-    shortcut :s, :shell
+    shortcut :sh, :shell
     shortcut :t, :test
   end
 
