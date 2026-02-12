@@ -1,0 +1,10 @@
+class MyAagreSystem::MyAagreCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAagreSystem::MyAagreCommand
+    assert_equality subject.class, MyAagreSystem::MyAagreCommand
+  end
+
+end
