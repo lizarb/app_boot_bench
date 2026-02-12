@@ -1,0 +1,10 @@
+class MyAcmccSystem::MyAcmccCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcmccSystem::MyAcmccCommand
+    assert_equality subject.class, MyAcmccSystem::MyAcmccCommand
+  end
+
+end

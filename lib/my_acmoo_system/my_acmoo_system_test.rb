@@ -1,0 +1,9 @@
+class MyAcmooSystem::MyAcmooSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcmooSystem::MyAcmooSystem
+  end
+
+end

@@ -1,0 +1,10 @@
+class MyAcmisSystem::MyAcmisCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcmisSystem::MyAcmisCommand
+    assert_equality subject.class, MyAcmisSystem::MyAcmisCommand
+  end
+
+end

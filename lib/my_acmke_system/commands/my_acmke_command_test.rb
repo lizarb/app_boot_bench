@@ -1,0 +1,10 @@
+class MyAcmkeSystem::MyAcmkeCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcmkeSystem::MyAcmkeCommand
+    assert_equality subject.class, MyAcmkeSystem::MyAcmkeCommand
+  end
+
+end

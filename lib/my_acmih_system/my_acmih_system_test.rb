@@ -1,0 +1,9 @@
+class MyAcmihSystem::MyAcmihSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcmihSystem::MyAcmihSystem
+  end
+
+end
