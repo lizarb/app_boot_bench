@@ -1,0 +1,11 @@
+class MyAaqxsSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

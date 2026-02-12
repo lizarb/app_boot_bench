@@ -1,0 +1,10 @@
+class MyAarkoSystem::MyAarkoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAarkoSystem::MyAarkoCommand
+    assert_equality subject.class, MyAarkoSystem::MyAarkoCommand
+  end
+
+end

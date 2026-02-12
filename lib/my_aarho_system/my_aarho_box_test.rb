@@ -1,0 +1,16 @@
+class MyAarhoSystem::MyAarhoBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAarhoSystem::MyAarhoBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end
