@@ -1,0 +1,11 @@
+class MyAbdwkSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

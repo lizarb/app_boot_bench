@@ -1,0 +1,10 @@
+class MyAbexsSystem::MyAbexsCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbexsSystem::MyAbexsCommand
+    assert_equality subject.class, MyAbexsSystem::MyAbexsCommand
+  end
+
+end

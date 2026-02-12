@@ -1,0 +1,10 @@
+class MyAbechSystem::MyAbechCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbechSystem::MyAbechCommand
+    assert_equality subject.class, MyAbechSystem::MyAbechCommand
+  end
+
+end

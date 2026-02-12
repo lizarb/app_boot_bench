@@ -1,0 +1,10 @@
+class MyAbefnSystem::MyAbefnCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbefnSystem::MyAbefnCommand
+    assert_equality subject.class, MyAbefnSystem::MyAbefnCommand
+  end
+
+end

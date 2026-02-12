@@ -1,0 +1,11 @@
+class MyAbeqfSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end
