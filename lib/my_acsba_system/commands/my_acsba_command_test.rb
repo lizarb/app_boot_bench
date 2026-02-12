@@ -1,0 +1,10 @@
+class MyAcsbaSystem::MyAcsbaCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcsbaSystem::MyAcsbaCommand
+    assert_equality subject.class, MyAcsbaSystem::MyAcsbaCommand
+  end
+
+end

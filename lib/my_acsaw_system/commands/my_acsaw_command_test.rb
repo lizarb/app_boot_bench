@@ -1,0 +1,10 @@
+class MyAcsawSystem::MyAcsawCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcsawSystem::MyAcsawCommand
+    assert_equality subject.class, MyAcsawSystem::MyAcsawCommand
+  end
+
+end

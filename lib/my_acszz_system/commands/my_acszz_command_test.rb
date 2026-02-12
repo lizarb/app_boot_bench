@@ -1,0 +1,10 @@
+class MyAcszzSystem::MyAcszzCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcszzSystem::MyAcszzCommand
+    assert_equality subject.class, MyAcszzSystem::MyAcszzCommand
+  end
+
+end

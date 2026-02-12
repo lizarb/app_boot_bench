@@ -1,0 +1,11 @@
+class MyAcsvsSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end
