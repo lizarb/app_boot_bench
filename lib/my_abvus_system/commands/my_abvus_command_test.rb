@@ -1,0 +1,10 @@
+class MyAbvusSystem::MyAbvusCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbvusSystem::MyAbvusCommand
+    assert_equality subject.class, MyAbvusSystem::MyAbvusCommand
+  end
+
+end

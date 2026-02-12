@@ -1,0 +1,16 @@
+class MyAbwsvSystem::MyAbwsvBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbwsvSystem::MyAbwsvBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end
