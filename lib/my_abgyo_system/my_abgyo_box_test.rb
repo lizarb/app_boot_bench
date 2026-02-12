@@ -1,0 +1,16 @@
+class MyAbgyoSystem::MyAbgyoBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbgyoSystem::MyAbgyoBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end
