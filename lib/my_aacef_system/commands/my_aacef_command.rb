@@ -20,9 +20,9 @@ class MyAacefSystem::MyAacefCommand < DevSystem::SimpleCommand
   def call_default
     color = :gray
     log stick :b, color, "I just think Ruby is the Best for coding!"
-    sleep 0.4
-    sleep 0.1
-    sleep 0.1
+    sleep 0.3
+    sleep 0.3
+    sleep 0.2
 
   rescue => e
     log "rescued from (#{e.class}) #{e.message}"

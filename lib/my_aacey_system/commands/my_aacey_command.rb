@@ -18,10 +18,10 @@ class MyAaceySystem::MyAaceyCommand < DevSystem::SimpleCommand
 
   # liza my_aacey s1 s2 s3 +b1 +b2 -b3 -b4 k1=v1 k2=v2
   def call_default
-    color = :lighter_red
+    color = :darker_white
     log stick :b, color, "I just think Ruby is the Best for coding!"
     sleep 0.1
-    sleep 0.4
+    sleep 0.2
     sleep 0.1
 
   rescue => e

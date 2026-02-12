@@ -18,7 +18,7 @@ class MyAacdmSystem::MyAacdmCommand < DevSystem::SimpleCommand
 
   # liza my_aacdm s1 s2 s3 +b1 +b2 -b3 -b4 k1=v1 k2=v2
   def call_default
-    color = :darkest_silver
+    color = :lighter_silver
     log stick :b, color, "I just think Ruby is the Best for coding!"
     sleep 0.1
     sleep 0.2

@@ -18,11 +18,11 @@ class MyAacapSystem::MyAacapCommand < DevSystem::SimpleCommand
 
   # liza my_aacap s1 s2 s3 +b1 +b2 -b3 -b4 k1=v1 k2=v2
   def call_default
-    color = :lightest_umber
+    color = :light_vermilion
     log stick :b, color, "I just think Ruby is the Best for coding!"
-    sleep 0.4
     sleep 0.2
     sleep 0.1
+    sleep 0.4
 
   rescue => e
     log "rescued from (#{e.class}) #{e.message}"

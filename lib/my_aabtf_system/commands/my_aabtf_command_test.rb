@@ -1,0 +1,10 @@
+class MyAabtfSystem::MyAabtfCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAabtfSystem::MyAabtfCommand
+    assert_equality subject.class, MyAabtfSystem::MyAabtfCommand
+  end
+
+end

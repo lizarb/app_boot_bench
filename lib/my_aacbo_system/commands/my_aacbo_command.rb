@@ -18,10 +18,10 @@ class MyAacboSystem::MyAacboCommand < DevSystem::SimpleCommand
 
   # liza my_aacbo s1 s2 s3 +b1 +b2 -b3 -b4 k1=v1 k2=v2
   def call_default
-    color = :light_cerulean
+    color = :lighter_lavender
     log stick :b, color, "I just think Ruby is the Best for coding!"
-    sleep 0.1
     sleep 0.2
+    sleep 0.3
     sleep 0.3
 
   rescue => e

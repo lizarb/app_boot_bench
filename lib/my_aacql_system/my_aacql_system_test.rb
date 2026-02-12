@@ -1,0 +1,9 @@
+class MyAacqlSystem::MyAacqlSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAacqlSystem::MyAacqlSystem
+  end
+
+end

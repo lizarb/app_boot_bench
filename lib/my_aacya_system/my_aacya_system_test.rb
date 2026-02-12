@@ -1,0 +1,9 @@
+class MyAacyaSystem::MyAacyaSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAacyaSystem::MyAacyaSystem
+  end
+
+end
