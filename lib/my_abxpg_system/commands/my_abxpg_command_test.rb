@@ -1,0 +1,10 @@
+class MyAbxpgSystem::MyAbxpgCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbxpgSystem::MyAbxpgCommand
+    assert_equality subject.class, MyAbxpgSystem::MyAbxpgCommand
+  end
+
+end

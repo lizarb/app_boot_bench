@@ -1,0 +1,10 @@
+class MyAbydfSystem::MyAbydfCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbydfSystem::MyAbydfCommand
+    assert_equality subject.class, MyAbydfSystem::MyAbydfCommand
+  end
+
+end
