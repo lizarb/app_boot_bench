@@ -1,0 +1,16 @@
+class MyAajtvSystem::MyAajtvBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAajtvSystem::MyAajtvBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end

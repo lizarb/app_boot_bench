@@ -1,0 +1,10 @@
+class MyAajnoSystem::MyAajnoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAajnoSystem::MyAajnoCommand
+    assert_equality subject.class, MyAajnoSystem::MyAajnoCommand
+  end
+
+end
