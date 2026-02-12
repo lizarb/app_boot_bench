@@ -1,0 +1,10 @@
+class MyAbaumSystem::MyAbaumCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbaumSystem::MyAbaumCommand
+    assert_equality subject.class, MyAbaumSystem::MyAbaumCommand
+  end
+
+end

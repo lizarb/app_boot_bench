@@ -1,0 +1,10 @@
+class MyAbbrkSystem::MyAbbrkCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbbrkSystem::MyAbbrkCommand
+    assert_equality subject.class, MyAbbrkSystem::MyAbbrkCommand
+  end
+
+end

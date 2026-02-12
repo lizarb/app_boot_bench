@@ -1,0 +1,10 @@
+class MyAbaypSystem::MyAbaypCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbaypSystem::MyAbaypCommand
+    assert_equality subject.class, MyAbaypSystem::MyAbaypCommand
+  end
+
+end

@@ -1,0 +1,10 @@
+class MyAbaqoSystem::MyAbaqoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbaqoSystem::MyAbaqoCommand
+    assert_equality subject.class, MyAbaqoSystem::MyAbaqoCommand
+  end
+
+end

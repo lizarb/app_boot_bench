@@ -1,0 +1,10 @@
+class MyAbbufSystem::MyAbbufCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbbufSystem::MyAbbufCommand
+    assert_equality subject.class, MyAbbufSystem::MyAbbufCommand
+  end
+
+end
