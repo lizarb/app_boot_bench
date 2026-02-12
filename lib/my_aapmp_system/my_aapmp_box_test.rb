@@ -1,0 +1,16 @@
+class MyAapmpSystem::MyAapmpBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAapmpSystem::MyAapmpBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end

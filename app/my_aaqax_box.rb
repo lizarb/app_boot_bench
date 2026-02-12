@@ -1,0 +1,8 @@
+class MyAaqaxBox < MyAaqaxSystem::MyAaqaxBox
+
+  section :configuration
+
+  # set :min_x, 0
+  # set :max_x, 100
+
+end

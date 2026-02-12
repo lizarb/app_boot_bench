@@ -1,0 +1,11 @@
+class MyAapmwSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

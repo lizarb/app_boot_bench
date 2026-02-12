@@ -1,0 +1,16 @@
+class MyAaqexSystem::MyAaqexBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAaqexSystem::MyAaqexBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end
