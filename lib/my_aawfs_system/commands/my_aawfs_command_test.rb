@@ -1,0 +1,10 @@
+class MyAawfsSystem::MyAawfsCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAawfsSystem::MyAawfsCommand
+    assert_equality subject.class, MyAawfsSystem::MyAawfsCommand
+  end
+
+end

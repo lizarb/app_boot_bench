@@ -1,0 +1,11 @@
+class MyAawrzSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end
