@@ -1,0 +1,10 @@
+class MyAabduSystem::MyAabduCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAabduSystem::MyAabduCommand
+    assert_equality subject.class, MyAabduSystem::MyAabduCommand
+  end
+
+end

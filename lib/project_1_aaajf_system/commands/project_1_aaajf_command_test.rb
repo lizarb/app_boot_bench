@@ -1,0 +1,10 @@
+class Project1AaajfSystem::Project1AaajfCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, Project1AaajfSystem::Project1AaajfCommand
+    assert_equality subject.class, Project1AaajfSystem::Project1AaajfCommand
+  end
+
+end

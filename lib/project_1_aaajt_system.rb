@@ -1,0 +1,11 @@
+class Project1AaajtSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

@@ -1,0 +1,10 @@
+class MyAabbySystem::MyAabbyCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAabbySystem::MyAabbyCommand
+    assert_equality subject.class, MyAabbySystem::MyAabbyCommand
+  end
+
+end
