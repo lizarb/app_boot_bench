@@ -1,0 +1,10 @@
+class MyAcuhoSystem::MyAcuhoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcuhoSystem::MyAcuhoCommand
+    assert_equality subject.class, MyAcuhoSystem::MyAcuhoCommand
+  end
+
+end

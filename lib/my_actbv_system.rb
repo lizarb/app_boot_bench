@@ -1,0 +1,11 @@
+class MyActbvSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

@@ -1,0 +1,10 @@
+class MyActlySystem::MyActlyCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyActlySystem::MyActlyCommand
+    assert_equality subject.class, MyActlySystem::MyActlyCommand
+  end
+
+end

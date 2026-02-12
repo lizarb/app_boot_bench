@@ -1,0 +1,10 @@
+class MyActpuSystem::MyActpuCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyActpuSystem::MyActpuCommand
+    assert_equality subject.class, MyActpuSystem::MyActpuCommand
+  end
+
+end

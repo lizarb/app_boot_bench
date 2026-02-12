@@ -1,0 +1,10 @@
+class MyActeiSystem::MyActeiCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyActeiSystem::MyActeiCommand
+    assert_equality subject.class, MyActeiSystem::MyActeiCommand
+  end
+
+end

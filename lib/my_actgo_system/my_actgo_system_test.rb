@@ -1,0 +1,9 @@
+class MyActgoSystem::MyActgoSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyActgoSystem::MyActgoSystem
+  end
+
+end

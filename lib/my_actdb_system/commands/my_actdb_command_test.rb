@@ -1,0 +1,10 @@
+class MyActdbSystem::MyActdbCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyActdbSystem::MyActdbCommand
+    assert_equality subject.class, MyActdbSystem::MyActdbCommand
+  end
+
+end

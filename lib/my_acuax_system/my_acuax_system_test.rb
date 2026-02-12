@@ -1,0 +1,9 @@
+class MyAcuaxSystem::MyAcuaxSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcuaxSystem::MyAcuaxSystem
+  end
+
+end

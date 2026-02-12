@@ -1,0 +1,10 @@
+class MyActjiSystem::MyActjiCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyActjiSystem::MyActjiCommand
+    assert_equality subject.class, MyActjiSystem::MyActjiCommand
+  end
+
+end
