@@ -1,0 +1,10 @@
+class MyAclerSystem::MyAclerCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAclerSystem::MyAclerCommand
+    assert_equality subject.class, MyAclerSystem::MyAclerCommand
+  end
+
+end

@@ -1,0 +1,9 @@
+class MyAckyoSystem::MyAckyoSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAckyoSystem::MyAckyoSystem
+  end
+
+end
