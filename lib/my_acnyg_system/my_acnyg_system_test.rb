@@ -1,0 +1,9 @@
+class MyAcnygSystem::MyAcnygSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcnygSystem::MyAcnygSystem
+  end
+
+end

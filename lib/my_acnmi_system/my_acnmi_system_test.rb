@@ -1,0 +1,9 @@
+class MyAcnmiSystem::MyAcnmiSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcnmiSystem::MyAcnmiSystem
+  end
+
+end

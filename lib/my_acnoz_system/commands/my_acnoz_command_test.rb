@@ -1,0 +1,10 @@
+class MyAcnozSystem::MyAcnozCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcnozSystem::MyAcnozCommand
+    assert_equality subject.class, MyAcnozSystem::MyAcnozCommand
+  end
+
+end
