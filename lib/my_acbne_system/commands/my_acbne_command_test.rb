@@ -1,0 +1,10 @@
+class MyAcbneSystem::MyAcbneCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcbneSystem::MyAcbneCommand
+    assert_equality subject.class, MyAcbneSystem::MyAcbneCommand
+  end
+
+end

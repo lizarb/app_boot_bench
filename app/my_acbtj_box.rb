@@ -1,0 +1,8 @@
+class MyAcbtjBox < MyAcbtjSystem::MyAcbtjBox
+
+  section :configuration
+
+  # set :min_x, 0
+  # set :max_x, 100
+
+end

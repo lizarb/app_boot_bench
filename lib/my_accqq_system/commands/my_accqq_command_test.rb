@@ -1,0 +1,10 @@
+class MyAccqqSystem::MyAccqqCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAccqqSystem::MyAccqqCommand
+    assert_equality subject.class, MyAccqqSystem::MyAccqqCommand
+  end
+
+end

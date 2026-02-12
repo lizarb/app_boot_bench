@@ -1,0 +1,11 @@
+class MyAcbzwSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

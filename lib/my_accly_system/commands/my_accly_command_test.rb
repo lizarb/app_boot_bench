@@ -1,0 +1,10 @@
+class MyAcclySystem::MyAcclyCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcclySystem::MyAcclyCommand
+    assert_equality subject.class, MyAcclySystem::MyAcclyCommand
+  end
+
+end
