@@ -1,0 +1,10 @@
+class MyAciacSystem::MyAciacCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAciacSystem::MyAciacCommand
+    assert_equality subject.class, MyAciacSystem::MyAciacCommand
+  end
+
+end

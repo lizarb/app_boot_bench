@@ -1,0 +1,10 @@
+class MyAchxlSystem::MyAchxlCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAchxlSystem::MyAchxlCommand
+    assert_equality subject.class, MyAchxlSystem::MyAchxlCommand
+  end
+
+end

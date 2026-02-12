@@ -1,0 +1,11 @@
+class MyAchuxSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

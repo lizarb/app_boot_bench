@@ -1,0 +1,10 @@
+class MyAchuxSystem::MyAchuxCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAchuxSystem::MyAchuxCommand
+    assert_equality subject.class, MyAchuxSystem::MyAchuxCommand
+  end
+
+end

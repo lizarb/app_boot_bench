@@ -1,0 +1,10 @@
+class MyAchytSystem::MyAchytCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAchytSystem::MyAchytCommand
+    assert_equality subject.class, MyAchytSystem::MyAchytCommand
+  end
+
+end

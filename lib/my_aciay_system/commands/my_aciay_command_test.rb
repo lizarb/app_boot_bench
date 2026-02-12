@@ -1,0 +1,10 @@
+class MyAciaySystem::MyAciayCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAciaySystem::MyAciayCommand
+    assert_equality subject.class, MyAciaySystem::MyAciayCommand
+  end
+
+end
