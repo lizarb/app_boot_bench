@@ -1,0 +1,9 @@
+class MyAbjnpSystem::MyAbjnpSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbjnpSystem::MyAbjnpSystem
+  end
+
+end

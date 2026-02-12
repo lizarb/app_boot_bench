@@ -1,0 +1,11 @@
+class MyAbkksSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end
