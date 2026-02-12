@@ -1,0 +1,10 @@
+class MyAcvraSystem::MyAcvraCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcvraSystem::MyAcvraCommand
+    assert_equality subject.class, MyAcvraSystem::MyAcvraCommand
+  end
+
+end

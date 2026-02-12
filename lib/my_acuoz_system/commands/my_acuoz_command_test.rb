@@ -1,0 +1,10 @@
+class MyAcuozSystem::MyAcuozCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcuozSystem::MyAcuozCommand
+    assert_equality subject.class, MyAcuozSystem::MyAcuozCommand
+  end
+
+end
