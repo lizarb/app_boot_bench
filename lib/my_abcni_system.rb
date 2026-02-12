@@ -1,0 +1,11 @@
+class MyAbcniSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

@@ -1,0 +1,10 @@
+class MyAbciaSystem::MyAbciaCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbciaSystem::MyAbciaCommand
+    assert_equality subject.class, MyAbciaSystem::MyAbciaCommand
+  end
+
+end
