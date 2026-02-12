@@ -1,0 +1,10 @@
+class MyAbgiuSystem::MyAbgiuCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbgiuSystem::MyAbgiuCommand
+    assert_equality subject.class, MyAbgiuSystem::MyAbgiuCommand
+  end
+
+end

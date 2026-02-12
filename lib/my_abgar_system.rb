@@ -1,0 +1,11 @@
+class MyAbgarSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

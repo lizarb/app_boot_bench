@@ -1,0 +1,10 @@
+class MyAbgcoSystem::MyAbgcoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbgcoSystem::MyAbgcoCommand
+    assert_equality subject.class, MyAbgcoSystem::MyAbgcoCommand
+  end
+
+end
