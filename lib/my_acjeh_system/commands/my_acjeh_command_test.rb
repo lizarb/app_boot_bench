@@ -1,0 +1,10 @@
+class MyAcjehSystem::MyAcjehCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcjehSystem::MyAcjehCommand
+    assert_equality subject.class, MyAcjehSystem::MyAcjehCommand
+  end
+
+end

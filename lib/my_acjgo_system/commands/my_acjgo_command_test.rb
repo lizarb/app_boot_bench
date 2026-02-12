@@ -1,0 +1,10 @@
+class MyAcjgoSystem::MyAcjgoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcjgoSystem::MyAcjgoCommand
+    assert_equality subject.class, MyAcjgoSystem::MyAcjgoCommand
+  end
+
+end
