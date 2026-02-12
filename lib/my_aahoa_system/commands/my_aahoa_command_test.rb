@@ -1,0 +1,10 @@
+class MyAahoaSystem::MyAahoaCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAahoaSystem::MyAahoaCommand
+    assert_equality subject.class, MyAahoaSystem::MyAahoaCommand
+  end
+
+end
