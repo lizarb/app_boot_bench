@@ -1,0 +1,9 @@
+class MyAcpulSystem::MyAcpulSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcpulSystem::MyAcpulSystem
+  end
+
+end

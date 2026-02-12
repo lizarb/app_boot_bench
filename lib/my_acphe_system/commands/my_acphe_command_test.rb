@@ -1,0 +1,10 @@
+class MyAcpheSystem::MyAcpheCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcpheSystem::MyAcpheCommand
+    assert_equality subject.class, MyAcpheSystem::MyAcpheCommand
+  end
+
+end
