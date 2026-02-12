@@ -1,0 +1,11 @@
+class MyAaoqlSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

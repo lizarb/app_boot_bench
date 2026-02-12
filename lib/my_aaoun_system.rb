@@ -1,0 +1,11 @@
+class MyAaounSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

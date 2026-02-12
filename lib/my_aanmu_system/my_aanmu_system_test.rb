@@ -1,0 +1,9 @@
+class MyAanmuSystem::MyAanmuSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAanmuSystem::MyAanmuSystem
+  end
+
+end

@@ -1,0 +1,10 @@
+class MyAanmnSystem::MyAanmnCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAanmnSystem::MyAanmnCommand
+    assert_equality subject.class, MyAanmnSystem::MyAanmnCommand
+  end
+
+end

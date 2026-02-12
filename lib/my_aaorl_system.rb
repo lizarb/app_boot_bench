@@ -1,0 +1,11 @@
+class MyAaorlSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

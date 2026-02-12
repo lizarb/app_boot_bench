@@ -1,0 +1,10 @@
+class MyAaocqSystem::MyAaocqCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAaocqSystem::MyAaocqCommand
+    assert_equality subject.class, MyAaocqSystem::MyAaocqCommand
+  end
+
+end

@@ -1,0 +1,11 @@
+class MyAanxoSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

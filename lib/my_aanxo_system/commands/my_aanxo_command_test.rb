@@ -1,0 +1,10 @@
+class MyAanxoSystem::MyAanxoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAanxoSystem::MyAanxoCommand
+    assert_equality subject.class, MyAanxoSystem::MyAanxoCommand
+  end
+
+end
