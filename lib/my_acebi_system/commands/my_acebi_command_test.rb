@@ -1,0 +1,10 @@
+class MyAcebiSystem::MyAcebiCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcebiSystem::MyAcebiCommand
+    assert_equality subject.class, MyAcebiSystem::MyAcebiCommand
+  end
+
+end

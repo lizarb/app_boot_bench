@@ -1,0 +1,10 @@
+class MyAccyuSystem::MyAccyuCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAccyuSystem::MyAccyuCommand
+    assert_equality subject.class, MyAccyuSystem::MyAccyuCommand
+  end
+
+end

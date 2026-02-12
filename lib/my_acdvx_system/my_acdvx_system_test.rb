@@ -1,0 +1,9 @@
+class MyAcdvxSystem::MyAcdvxSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcdvxSystem::MyAcdvxSystem
+  end
+
+end

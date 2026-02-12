@@ -1,0 +1,9 @@
+class MyAcdawSystem::MyAcdawSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcdawSystem::MyAcdawSystem
+  end
+
+end

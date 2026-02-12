@@ -1,0 +1,10 @@
+class MyAccymSystem::MyAccymCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAccymSystem::MyAccymCommand
+    assert_equality subject.class, MyAccymSystem::MyAccymCommand
+  end
+
+end

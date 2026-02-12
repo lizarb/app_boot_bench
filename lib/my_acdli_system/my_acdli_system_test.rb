@@ -1,0 +1,9 @@
+class MyAcdliSystem::MyAcdliSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcdliSystem::MyAcdliSystem
+  end
+
+end

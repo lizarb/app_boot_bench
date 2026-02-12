@@ -1,0 +1,16 @@
+class MyAcdrnSystem::MyAcdrnBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcdrnSystem::MyAcdrnBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end
