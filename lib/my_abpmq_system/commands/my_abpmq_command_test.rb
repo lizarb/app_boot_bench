@@ -1,0 +1,10 @@
+class MyAbpmqSystem::MyAbpmqCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbpmqSystem::MyAbpmqCommand
+    assert_equality subject.class, MyAbpmqSystem::MyAbpmqCommand
+  end
+
+end

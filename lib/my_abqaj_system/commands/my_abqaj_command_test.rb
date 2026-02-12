@@ -1,0 +1,10 @@
+class MyAbqajSystem::MyAbqajCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbqajSystem::MyAbqajCommand
+    assert_equality subject.class, MyAbqajSystem::MyAbqajCommand
+  end
+
+end
