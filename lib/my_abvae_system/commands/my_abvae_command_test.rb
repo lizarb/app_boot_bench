@@ -1,0 +1,10 @@
+class MyAbvaeSystem::MyAbvaeCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbvaeSystem::MyAbvaeCommand
+    assert_equality subject.class, MyAbvaeSystem::MyAbvaeCommand
+  end
+
+end

@@ -1,0 +1,11 @@
+class MyAbvikSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

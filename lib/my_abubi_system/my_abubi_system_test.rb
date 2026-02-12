@@ -1,0 +1,9 @@
+class MyAbubiSystem::MyAbubiSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbubiSystem::MyAbubiSystem
+  end
+
+end

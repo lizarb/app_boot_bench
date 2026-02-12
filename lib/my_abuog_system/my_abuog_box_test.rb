@@ -1,0 +1,16 @@
+class MyAbuogSystem::MyAbuogBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbuogSystem::MyAbuogBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end

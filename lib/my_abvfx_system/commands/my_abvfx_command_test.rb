@@ -1,0 +1,10 @@
+class MyAbvfxSystem::MyAbvfxCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbvfxSystem::MyAbvfxCommand
+    assert_equality subject.class, MyAbvfxSystem::MyAbvfxCommand
+  end
+
+end

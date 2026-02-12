@@ -1,0 +1,10 @@
+class MyAbuadSystem::MyAbuadCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbuadSystem::MyAbuadCommand
+    assert_equality subject.class, MyAbuadSystem::MyAbuadCommand
+  end
+
+end
