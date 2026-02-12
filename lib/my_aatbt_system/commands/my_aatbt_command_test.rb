@@ -1,0 +1,10 @@
+class MyAatbtSystem::MyAatbtCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAatbtSystem::MyAatbtCommand
+    assert_equality subject.class, MyAatbtSystem::MyAatbtCommand
+  end
+
+end

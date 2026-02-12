@@ -1,0 +1,10 @@
+class MyAasboSystem::MyAasboCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAasboSystem::MyAasboCommand
+    assert_equality subject.class, MyAasboSystem::MyAasboCommand
+  end
+
+end

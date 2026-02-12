@@ -1,0 +1,11 @@
+class MyAasfdSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end
