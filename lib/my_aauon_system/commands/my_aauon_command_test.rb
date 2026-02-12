@@ -1,0 +1,10 @@
+class MyAauonSystem::MyAauonCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAauonSystem::MyAauonCommand
+    assert_equality subject.class, MyAauonSystem::MyAauonCommand
+  end
+
+end
