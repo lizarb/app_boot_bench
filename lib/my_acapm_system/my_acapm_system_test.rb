@@ -1,0 +1,9 @@
+class MyAcapmSystem::MyAcapmSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcapmSystem::MyAcapmSystem
+  end
+
+end

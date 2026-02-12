@@ -1,0 +1,10 @@
+class MyAcavlSystem::MyAcavlCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcavlSystem::MyAcavlCommand
+    assert_equality subject.class, MyAcavlSystem::MyAcavlCommand
+  end
+
+end

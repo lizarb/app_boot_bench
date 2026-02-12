@@ -1,0 +1,10 @@
+class MyAcanoSystem::MyAcanoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcanoSystem::MyAcanoCommand
+    assert_equality subject.class, MyAcanoSystem::MyAcanoCommand
+  end
+
+end

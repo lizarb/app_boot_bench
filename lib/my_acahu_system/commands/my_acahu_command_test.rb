@@ -1,0 +1,10 @@
+class MyAcahuSystem::MyAcahuCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcahuSystem::MyAcahuCommand
+    assert_equality subject.class, MyAcahuSystem::MyAcahuCommand
+  end
+
+end

@@ -1,0 +1,11 @@
+class MyAbzuzSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end
