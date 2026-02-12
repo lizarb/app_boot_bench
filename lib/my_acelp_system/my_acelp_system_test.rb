@@ -1,0 +1,9 @@
+class MyAcelpSystem::MyAcelpSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcelpSystem::MyAcelpSystem
+  end
+
+end

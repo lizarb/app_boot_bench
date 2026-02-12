@@ -1,0 +1,10 @@
+class MyAcfarSystem::MyAcfarCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcfarSystem::MyAcfarCommand
+    assert_equality subject.class, MyAcfarSystem::MyAcfarCommand
+  end
+
+end

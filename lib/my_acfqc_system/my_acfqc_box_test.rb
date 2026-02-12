@@ -1,0 +1,16 @@
+class MyAcfqcSystem::MyAcfqcBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcfqcSystem::MyAcfqcBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end

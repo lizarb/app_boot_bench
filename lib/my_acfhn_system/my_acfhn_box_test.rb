@@ -1,0 +1,16 @@
+class MyAcfhnSystem::MyAcfhnBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcfhnSystem::MyAcfhnBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end

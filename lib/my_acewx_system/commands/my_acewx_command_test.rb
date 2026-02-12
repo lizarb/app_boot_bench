@@ -1,0 +1,10 @@
+class MyAcewxSystem::MyAcewxCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcewxSystem::MyAcewxCommand
+    assert_equality subject.class, MyAcewxSystem::MyAcewxCommand
+  end
+
+end
