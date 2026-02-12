@@ -1,0 +1,10 @@
+class MyAchaeSystem::MyAchaeCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAchaeSystem::MyAchaeCommand
+    assert_equality subject.class, MyAchaeSystem::MyAchaeCommand
+  end
+
+end

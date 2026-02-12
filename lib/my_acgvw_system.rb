@@ -1,0 +1,11 @@
+class MyAcgvwSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

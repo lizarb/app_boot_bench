@@ -1,0 +1,10 @@
+class MyAcgpbSystem::MyAcgpbCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcgpbSystem::MyAcgpbCommand
+    assert_equality subject.class, MyAcgpbSystem::MyAcgpbCommand
+  end
+
+end

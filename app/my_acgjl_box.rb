@@ -1,0 +1,8 @@
+class MyAcgjlBox < MyAcgjlSystem::MyAcgjlBox
+
+  section :configuration
+
+  # set :min_x, 0
+  # set :max_x, 100
+
+end

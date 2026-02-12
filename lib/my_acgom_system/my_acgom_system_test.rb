@@ -1,0 +1,9 @@
+class MyAcgomSystem::MyAcgomSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcgomSystem::MyAcgomSystem
+  end
+
+end
