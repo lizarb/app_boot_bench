@@ -1,0 +1,10 @@
+class MyAbrfySystem::MyAbrfyCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbrfySystem::MyAbrfyCommand
+    assert_equality subject.class, MyAbrfySystem::MyAbrfyCommand
+  end
+
+end

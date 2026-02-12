@@ -1,0 +1,9 @@
+class MyAbrupSystem::MyAbrupSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbrupSystem::MyAbrupSystem
+  end
+
+end

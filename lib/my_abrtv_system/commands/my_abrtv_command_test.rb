@@ -1,0 +1,10 @@
+class MyAbrtvSystem::MyAbrtvCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbrtvSystem::MyAbrtvCommand
+    assert_equality subject.class, MyAbrtvSystem::MyAbrtvCommand
+  end
+
+end

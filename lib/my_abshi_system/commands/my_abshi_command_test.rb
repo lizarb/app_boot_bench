@@ -1,0 +1,10 @@
+class MyAbshiSystem::MyAbshiCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbshiSystem::MyAbshiCommand
+    assert_equality subject.class, MyAbshiSystem::MyAbshiCommand
+  end
+
+end

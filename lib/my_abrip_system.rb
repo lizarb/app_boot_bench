@@ -1,0 +1,11 @@
+class MyAbripSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

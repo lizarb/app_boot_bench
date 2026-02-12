@@ -1,0 +1,9 @@
+class MyAbrymSystem::MyAbrymSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbrymSystem::MyAbrymSystem
+  end
+
+end
