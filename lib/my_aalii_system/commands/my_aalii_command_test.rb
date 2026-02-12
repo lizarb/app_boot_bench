@@ -1,0 +1,10 @@
+class MyAaliiSystem::MyAaliiCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAaliiSystem::MyAaliiCommand
+    assert_equality subject.class, MyAaliiSystem::MyAaliiCommand
+  end
+
+end

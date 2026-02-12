@@ -1,0 +1,10 @@
+class MyAaltySystem::MyAaltyCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAaltySystem::MyAaltyCommand
+    assert_equality subject.class, MyAaltySystem::MyAaltyCommand
+  end
+
+end

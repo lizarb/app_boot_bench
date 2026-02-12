@@ -1,0 +1,10 @@
+class MyAaklaSystem::MyAaklaCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAaklaSystem::MyAaklaCommand
+    assert_equality subject.class, MyAaklaSystem::MyAaklaCommand
+  end
+
+end

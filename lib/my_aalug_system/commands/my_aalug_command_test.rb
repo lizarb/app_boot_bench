@@ -1,0 +1,10 @@
+class MyAalugSystem::MyAalugCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAalugSystem::MyAalugCommand
+    assert_equality subject.class, MyAalugSystem::MyAalugCommand
+  end
+
+end

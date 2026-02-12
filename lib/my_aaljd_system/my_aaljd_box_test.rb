@@ -1,0 +1,16 @@
+class MyAaljdSystem::MyAaljdBoxTest < Liza::BoxTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAaljdSystem::MyAaljdBox
+  end
+
+  test_sections(
+  )
+
+  test :settings do
+    assert_equality subject_class.log_level, 4
+  end
+
+end

@@ -1,0 +1,10 @@
+class MyAakytSystem::MyAakytCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAakytSystem::MyAakytCommand
+    assert_equality subject.class, MyAakytSystem::MyAakytCommand
+  end
+
+end

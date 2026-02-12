@@ -1,0 +1,11 @@
+class MyAakwkSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

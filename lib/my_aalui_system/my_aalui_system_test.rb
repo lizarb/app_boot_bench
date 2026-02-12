@@ -1,0 +1,9 @@
+class MyAaluiSystem::MyAaluiSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAaluiSystem::MyAaluiSystem
+  end
+
+end
