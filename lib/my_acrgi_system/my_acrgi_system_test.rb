@@ -1,0 +1,9 @@
+class MyAcrgiSystem::MyAcrgiSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAcrgiSystem::MyAcrgiSystem
+  end
+
+end

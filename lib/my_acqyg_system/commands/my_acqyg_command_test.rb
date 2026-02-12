@@ -1,0 +1,10 @@
+class MyAcqygSystem::MyAcqygCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcqygSystem::MyAcqygCommand
+    assert_equality subject.class, MyAcqygSystem::MyAcqygCommand
+  end
+
+end

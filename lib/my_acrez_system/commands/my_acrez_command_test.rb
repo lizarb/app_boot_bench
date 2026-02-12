@@ -1,0 +1,10 @@
+class MyAcrezSystem::MyAcrezCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcrezSystem::MyAcrezCommand
+    assert_equality subject.class, MyAcrezSystem::MyAcrezCommand
+  end
+
+end

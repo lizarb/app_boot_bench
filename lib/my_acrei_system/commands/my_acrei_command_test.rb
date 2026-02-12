@@ -1,0 +1,10 @@
+class MyAcreiSystem::MyAcreiCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcreiSystem::MyAcreiCommand
+    assert_equality subject.class, MyAcreiSystem::MyAcreiCommand
+  end
+
+end

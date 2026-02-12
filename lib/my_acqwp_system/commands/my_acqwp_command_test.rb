@@ -1,0 +1,10 @@
+class MyAcqwpSystem::MyAcqwpCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAcqwpSystem::MyAcqwpCommand
+    assert_equality subject.class, MyAcqwpSystem::MyAcqwpCommand
+  end
+
+end
