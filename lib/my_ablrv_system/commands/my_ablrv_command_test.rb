@@ -1,0 +1,10 @@
+class MyAblrvSystem::MyAblrvCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAblrvSystem::MyAblrvCommand
+    assert_equality subject.class, MyAblrvSystem::MyAblrvCommand
+  end
+
+end

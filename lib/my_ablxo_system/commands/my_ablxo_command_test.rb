@@ -1,0 +1,10 @@
+class MyAblxoSystem::MyAblxoCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAblxoSystem::MyAblxoCommand
+    assert_equality subject.class, MyAblxoSystem::MyAblxoCommand
+  end
+
+end

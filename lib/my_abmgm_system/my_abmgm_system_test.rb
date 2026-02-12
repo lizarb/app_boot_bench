@@ -1,0 +1,9 @@
+class MyAbmgmSystem::MyAbmgmSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbmgmSystem::MyAbmgmSystem
+  end
+
+end

@@ -1,0 +1,10 @@
+class MyAblilSystem::MyAblilCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAblilSystem::MyAblilCommand
+    assert_equality subject.class, MyAblilSystem::MyAblilCommand
+  end
+
+end

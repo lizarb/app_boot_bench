@@ -1,0 +1,9 @@
+class MyAbmhzSystem::MyAbmhzSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbmhzSystem::MyAbmhzSystem
+  end
+
+end

@@ -1,0 +1,10 @@
+class MyAbmjlSystem::MyAbmjlCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbmjlSystem::MyAbmjlCommand
+    assert_equality subject.class, MyAbmjlSystem::MyAbmjlCommand
+  end
+
+end

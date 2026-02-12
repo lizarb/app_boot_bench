@@ -1,0 +1,10 @@
+class MyAblhpSystem::MyAblhpCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAblhpSystem::MyAblhpCommand
+    assert_equality subject.class, MyAblhpSystem::MyAblhpCommand
+  end
+
+end
