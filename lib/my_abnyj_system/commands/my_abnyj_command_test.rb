@@ -1,0 +1,10 @@
+class MyAbnyjSystem::MyAbnyjCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbnyjSystem::MyAbnyjCommand
+    assert_equality subject.class, MyAbnyjSystem::MyAbnyjCommand
+  end
+
+end
