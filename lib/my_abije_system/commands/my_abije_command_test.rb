@@ -1,0 +1,10 @@
+class MyAbijeSystem::MyAbijeCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbijeSystem::MyAbijeCommand
+    assert_equality subject.class, MyAbijeSystem::MyAbijeCommand
+  end
+
+end

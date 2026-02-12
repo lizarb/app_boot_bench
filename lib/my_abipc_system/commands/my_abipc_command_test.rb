@@ -1,0 +1,10 @@
+class MyAbipcSystem::MyAbipcCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbipcSystem::MyAbipcCommand
+    assert_equality subject.class, MyAbipcSystem::MyAbipcCommand
+  end
+
+end
