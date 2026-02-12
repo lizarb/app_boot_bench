@@ -1,0 +1,9 @@
+class MyAavlaSystem::MyAavlaSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAavlaSystem::MyAavlaSystem
+  end
+
+end

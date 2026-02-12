@@ -1,0 +1,8 @@
+class MyAavtrBox < MyAavtrSystem::MyAavtrBox
+
+  section :configuration
+
+  # set :min_x, 0
+  # set :max_x, 100
+
+end

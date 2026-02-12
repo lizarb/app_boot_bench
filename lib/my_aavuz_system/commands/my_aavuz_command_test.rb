@@ -1,0 +1,10 @@
+class MyAavuzSystem::MyAavuzCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAavuzSystem::MyAavuzCommand
+    assert_equality subject.class, MyAavuzSystem::MyAavuzCommand
+  end
+
+end
