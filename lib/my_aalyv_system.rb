@@ -1,0 +1,11 @@
+class MyAalyvSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

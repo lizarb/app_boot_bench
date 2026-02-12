@@ -1,0 +1,10 @@
+class MyAamikSystem::MyAamikCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAamikSystem::MyAamikCommand
+    assert_equality subject.class, MyAamikSystem::MyAamikCommand
+  end
+
+end

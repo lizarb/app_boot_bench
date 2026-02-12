@@ -1,0 +1,10 @@
+class MyAanakSystem::MyAanakCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAanakSystem::MyAanakCommand
+    assert_equality subject.class, MyAanakSystem::MyAanakCommand
+  end
+
+end

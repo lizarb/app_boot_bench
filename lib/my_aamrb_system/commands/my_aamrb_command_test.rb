@@ -1,0 +1,10 @@
+class MyAamrbSystem::MyAamrbCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAamrbSystem::MyAamrbCommand
+    assert_equality subject.class, MyAamrbSystem::MyAamrbCommand
+  end
+
+end

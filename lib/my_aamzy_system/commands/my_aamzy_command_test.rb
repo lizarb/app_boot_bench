@@ -1,0 +1,10 @@
+class MyAamzySystem::MyAamzyCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAamzySystem::MyAamzyCommand
+    assert_equality subject.class, MyAamzySystem::MyAamzyCommand
+  end
+
+end
