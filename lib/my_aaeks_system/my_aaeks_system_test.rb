@@ -1,0 +1,9 @@
+class MyAaeksSystem::MyAaeksSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAaeksSystem::MyAaeksSystem
+  end
+
+end

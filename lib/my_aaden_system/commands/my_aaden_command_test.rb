@@ -1,0 +1,10 @@
+class MyAadenSystem::MyAadenCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAadenSystem::MyAadenCommand
+    assert_equality subject.class, MyAadenSystem::MyAadenCommand
+  end
+
+end
