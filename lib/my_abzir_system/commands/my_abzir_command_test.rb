@@ -1,0 +1,10 @@
+class MyAbzirSystem::MyAbzirCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbzirSystem::MyAbzirCommand
+    assert_equality subject.class, MyAbzirSystem::MyAbzirCommand
+  end
+
+end

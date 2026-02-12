@@ -1,0 +1,9 @@
+class MyAbyofSystem::MyAbyofSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAbyofSystem::MyAbyofSystem
+  end
+
+end

@@ -1,0 +1,10 @@
+class MyAbzioSystem::MyAbzioCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbzioSystem::MyAbzioCommand
+    assert_equality subject.class, MyAbzioSystem::MyAbzioCommand
+  end
+
+end
