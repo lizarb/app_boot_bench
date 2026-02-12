@@ -1,0 +1,10 @@
+class MyAbaleSystem::MyAbaleCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbaleSystem::MyAbaleCommand
+    assert_equality subject.class, MyAbaleSystem::MyAbaleCommand
+  end
+
+end

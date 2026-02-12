@@ -1,0 +1,10 @@
+class MyAazmlSystem::MyAazmlCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAazmlSystem::MyAazmlCommand
+    assert_equality subject.class, MyAazmlSystem::MyAazmlCommand
+  end
+
+end
