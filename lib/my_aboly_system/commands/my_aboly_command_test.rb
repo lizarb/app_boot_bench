@@ -1,0 +1,10 @@
+class MyAbolySystem::MyAbolyCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbolySystem::MyAbolyCommand
+    assert_equality subject.class, MyAbolySystem::MyAbolyCommand
+  end
+
+end

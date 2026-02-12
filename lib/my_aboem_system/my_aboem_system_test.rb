@@ -1,0 +1,9 @@
+class MyAboemSystem::MyAboemSystemTest < Liza::SystemTest
+
+  section :systemic
+
+  test :subject_class do
+    assert_equality subject_class, MyAboemSystem::MyAboemSystem
+  end
+
+end
