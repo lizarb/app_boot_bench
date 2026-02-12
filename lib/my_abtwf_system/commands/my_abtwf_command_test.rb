@@ -1,0 +1,10 @@
+class MyAbtwfSystem::MyAbtwfCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAbtwfSystem::MyAbtwfCommand
+    assert_equality subject.class, MyAbtwfSystem::MyAbtwfCommand
+  end
+
+end
