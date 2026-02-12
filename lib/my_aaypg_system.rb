@@ -1,0 +1,11 @@
+class MyAaypgSystem < Liza::System
+
+  section :default
+
+  color :green
+
+  section :info
+
+  #
+
+end

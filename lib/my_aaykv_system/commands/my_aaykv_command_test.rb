@@ -1,0 +1,10 @@
+class MyAaykvSystem::MyAaykvCommandTest < DevSystem::SimpleCommandTest
+
+  section :subject
+
+  test :subject_class, :subject do
+    assert_equality subject_class, MyAaykvSystem::MyAaykvCommand
+    assert_equality subject.class, MyAaykvSystem::MyAaykvCommand
+  end
+
+end
